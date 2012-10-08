@@ -1,0 +1,9 @@
+snippet ife "if ... else ... fi"
+if ${1:[[ ${2:condition} ]]}; then
+  ${3:#statements}
+else
+  ${4:#statements}
+fi
+${0}
+endsnippet
+
